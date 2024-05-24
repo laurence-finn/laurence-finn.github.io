@@ -50,3 +50,10 @@ a.nav-link:hover {
   color: #58E091;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1em;
+    padding: 0.5rem;
+  }
+}
