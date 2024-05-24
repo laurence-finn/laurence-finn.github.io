@@ -18,6 +18,10 @@ h1 {
   color: #58E091
 }
 
+h2 {
+  color: #E0AE58;
+}
+
 li, p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -30,4 +34,19 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+a.nav-link:hover {
+  background-color: #58AAE0;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a159b5
+}
+
+.contact {
+  color: #58E091;
+  font-weight: bold;
 }
