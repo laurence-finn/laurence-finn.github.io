@@ -51,9 +51,20 @@ a.nav-link:hover {
   font-weight: bold;
 }
 
+.novel-cover {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0.5em 0;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 1em;
     padding: 0.5rem;
+  }
+  .novel-cover {
+    max-width: 100%;
   }
 }
